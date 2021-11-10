@@ -1,1 +1,26 @@
 // Specific CSS for your home-page
+body {
+  text-align: center;
+  font-size: 17px;
+}
+
+ul {
+  list-style-type: none;
+
+  li {
+    margin-bottom: 20px;
+    a {
+      color: #71A2B6;
+      &:hover {
+        color: #11001C;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+h1 {
+  color: #D4AFCD;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}

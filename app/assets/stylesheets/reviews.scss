@@ -1,0 +1,46 @@
+// Place all the styles related to the reviews controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+#add-review {
+  margin-top: 30px;
+  a {
+    color: #B79FAD;
+    font-weight: bold;
+
+    &:hover {
+      color: #982649;
+      text-decoration: none;
+    }
+  }
+}
+
+h3 {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  color: #D4AFCD;
+  font-size: 30px;
+}
+
+#list-reviews {
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  li {
+    text-align: left;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 1px solid #11001C;
+    width: 600px;
+  }
+}
+
+.fas {
+  color: #982649;
+}
+
+#rating {
+  display: flex;
+  .fa-star {
+    color: gold;
+  }
+}
