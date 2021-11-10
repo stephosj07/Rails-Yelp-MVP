@@ -5,4 +5,8 @@ class Review < ApplicationRecord
   validates :rating, presence: true,
             inclusion: { in: (0..5), message: "The rating must be a number between 0 and 5" },
             numericality: { only_integer: true, message: "Only numbers are allowed"}
+
+  def blank_stars
+    5 - rating
+  end
 end

@@ -16,7 +16,10 @@
       <li>
       <div id="rating">
         <% review.rating.times do %>
-          <i class="fas fa-star"></i><br />
+          <i class="fas fa-star"></i>
+        <% end %>
+        <% review.blank_stars.times do %>
+          <i class="far fa-star"></i><br />
         <% end %>
       </div>
       <%= review.content %>
